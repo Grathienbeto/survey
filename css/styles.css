@@ -1,0 +1,135 @@
+body,
+h1,
+h2,
+h3,
+form,
+label,
+input {
+    margin: 0;
+}
+
+body{
+    background-color: #212121;
+    background-image: url("https://wallpaper.dog/large/17179229.png");
+    color: #ffffff;
+    font-size: 62.5%;
+    font-family: 'Exo', Verdana, Tahoma, sans-serif;
+   
+    
+}
+
+
+/* Encabezado*/
+
+header{
+    font-size: 1.25rem;
+    line-height: 2;
+    margin: 0 auto;
+    padding: 5rem 1rem 4rem;
+    text-align: center;
+}
+
+
+/* Formulario - Datos */
+
+form{
+    margin: 0 auto;
+    max-width: 720px;
+    background-color: #212121DD;
+    padding: 1rem 4rem;
+
+}
+
+.label-info{
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+    margin: 25px 0 0;
+}
+
+
+.input-info{
+    background-color: #323232;
+    border-style: ridge;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 700px;
+}
+
+select{
+    background-color: #323232;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    width: 720px;
+}
+
+/* Radio */
+
+.option-div{
+    margin-bottom: 30px;
+}
+
+.p-options{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.radio-label{
+    display: block;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.radio-btn{
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Checkboxes*/
+
+.checkbox-label{
+    display: block;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.checkbox-btn{
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Textarea */
+textarea{
+    border: 1px ridge white;
+    font-size: 15px;
+    font-family: 'Exo', Verdana, Tahoma, sans-serif;
+    resize: none;
+    width: 700px;
+    background-color: #323232;
+    color: white;
+    
+}
+
+/* Button */
+
+.btn{
+    border: none;
+    font-family: 'Exo', Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 35% 50px ;
+    padding: 10px 50px;
+}
+
+.center-align{
+    margin-top: 50px;
+    text-align: center;
+}

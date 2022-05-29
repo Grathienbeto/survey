@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+        <title>SURVEY</title>
+    </head>
+
+    <body>
+
+        <!-- Encabezado -->
+        <header>
+            <h1 id="title"> GAMES YOU PLAY </h1>
+            <p id="description"> Tell us about what kind of games you like the most and how much like play them! </p>
+        </header>
+
+        <!-- Formulario -->
+        <form id="survey-form">
+
+            <!--Datos personales-->
+            <div class="">
+                <label id="name-label" class="label-info"> Name
+                <input type="text" class="input-info" name="name" id="name" placeholder="Enter your name" required></label>
+
+                <label id="email-label" class="label-info"> Email
+                    <input type="email" class="input-info" name="email" id="email" placeholder="Enter your email" required></label>
+                
+                <label id="number-label" class="label-info"> Age
+                    <input type="number" class="input-info" name="number" id="number" min="10" max="120" placeholder="Enter your age"></label>
+            </div>
+
+            <!-- Select -->
+            <label class="label-info"> Which platform do you use the most?
+            <select name="dropdown" id="dropdown"> 
+                <option value="0">Select one</option>
+                <option value="1">PC</option>
+                <option value="2">Playstation</option>
+                <option value="3">Xbox</option>
+            </select></label>
+
+            <!-- Radio-->
+            <div class="option-div"> <p class="p-options"> How many hours per week do you play? </p>
+                <label for="" class="radio-label"> 
+                    <input type="radio" name="radio" value="1" class="radio-btn" val> 1 - 6 hours a week </label>
+
+                <label for="" class="radio-label"> 
+                    <input type="radio" name="radio" value="2" class="radio-btn"> 7 - 14 hours a week </label>
+
+                <label for="" class="radio-label"> 
+                    <input type="radio" name="radio" value="3" class="radio-btn"> 15 - 21 hours a week</label>
+
+                <label for="" class="radio-label"> 
+                    <input type="radio" name="radio" value="4" class="radio-btn"> The above options are for amateurs</label>
+            </div>
+
+            <!-- Checkbox-->
+            <div>
+                <p class="p-options">What kind of games do you play?</p>
+                <label for="" class="checkbox-label">
+                    <input name="checkbox" value="1" type="checkbox" class="checkbox-btn">Shooters</label>
+
+                <label for="" class="checkbox-label">
+                    <input name="checkbox" value="2" type="checkbox" class="checkbox-btn">Sports</label>
+
+                <label for="" class="checkbox-label">
+                    <input name="checkbox" value="3" type="checkbox" class="checkbox-btn">RPGs</label>
+
+                <label for="" class="checkbox-label">
+                    <input name="checkbox" value="4" type="checkbox" class="checkbox-btn">MOBAs</label>
+
+                <label for="" class="checkbox-label">
+                    <input name="checkbox" value="5" type="checkbox" class="checkbox-btn">Open World</label>
+
+                <label for="" class="checkbox-label">
+                    <input name="checkbox" value="6" type="checkbox" class="checkbox-btn">MMORPG</label>
+
+                <label for="" class="checkbox-label">
+                    <input name="checkbox" value="7" type="checkbox" class="checkbox-btn">Strategy</label>
+            </div>
+
+            <div>
+                <p class="p-options">Write us something that we might missed</p>
+                <textarea name="text-area" id="textarea" cols="80" rows="7" placeholder="What should we add to the survey?"></textarea>
+            </div>
+
+            <p class="p-options center-align" >Check out if your information is correct before submitting</p>
+
+            <div>
+                <button id="submite" type="submit" class="btn">Submit</button>
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
